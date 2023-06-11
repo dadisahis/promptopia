@@ -1,0 +1,16 @@
+.profile_page{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    h1{
+        font-size: 50px;
+        background: linear-gradient(to right, rgb(19, 74, 226) 5%, rgb(1, 101, 194) 40%, rgb(33, 150, 228) 99%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        color: gray;
+    }
+}
